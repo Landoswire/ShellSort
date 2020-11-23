@@ -13,7 +13,7 @@ public class Main {
     
     public static void main(String[] args){
         
-        int i=0, cantidad=10000, rango=10000;
+        int i=0, cantidad=1000000, rango=1000000;
         int arreglo[] = new int[cantidad];//el arreglo se va a generar de la cantidad que estamos colocando
         
         arreglo[i]=(int)(Math.random()*rango);//vamos a almacenar en la localidad 0 de nuestro arreglo el 1er num aleatorio que estemos generando. dependiendo del rango
